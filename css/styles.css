@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Corinthia:wght@400;700&family=Fontdiner+Swanky&family=Imperial+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tangerine:wght@400;700&display=swap');
+* {
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: normal;
+  }
+body {
+    background-image: url('./img.yoli.jpg'); /* Cambia 'fondo.jpg' de mi imagen */
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    height: 100vh; /* Toma toda la altura de la ventana */
+    margin: 0; /* Eliminar márgenes por defecto */
+    color: orange; /* Color del texto */
+    font-family: Tahoma; /* Fuente del texto */
+    font-size: 16px; /* Tamaño de fuente */
+}
+  header {      
+    position:center;
+    width: 100%;
+    height: 70px;
+    top:0;
+    background-color: #d8300a; 
+    z-index: 1;
+  }
+
+  h1 {
+    text-align: center;
+    padding:2px;
+    margin: 1px 0;
+    font-size: 2rem;
+  }    
+  main {
+    width: 90%;
+    margin: 60px auto;
+    vertical-align: top ;
+    text-align: center;
+    background-color: #d8300a;
+  }
+  .tarjeta {
+      display: inline-block;
+      position: relative;
+      width: 180px;
+      height: 160px;
+      margin: 5px;
+      border: 1px solid lab(78.89% 15.15 80.46);;
+      text-align: center;
+      vertical-align: bottom;
+      overflow: hidden; 
+      background-color: hwb(181 5% 11%);
+      /* ojo */
+  }
+  .foto > img{
+      object-fit: cover;
+      width: 95%; 
+          
+  }
+
+  .contenido {
+      position:absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: linear-gradient(to top,rgb(108, 181, 194), transparent);
+      opacity: 0.7;      
+  }
+
+  h2, p {
+    margin: 0;
+    padding: 0 5px;
+    text-align: center;
+   border: 0.5px rgb(15, 218, 201); 
+  }
+  h2  {
+    font-size: 1.5rem;
+  }
+  p {
+    color: #4827a2;
+    font-size: 1.5rem;
+  }
